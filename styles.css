@@ -1,6 +1,31 @@
-/* Set the background color to gray */
+/* Angry duo image */
+.duo-img {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 250px; /* Increase size */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1000;
+}
+
+/* Title color */
+.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make it span the full width */
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-color: lightgreen;
+    padding: 20px 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Set the background color to Gray */
 body {
-    background-color: gray;
+    background-color: Gray;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
