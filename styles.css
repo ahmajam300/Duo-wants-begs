@@ -1,0 +1,108 @@
+/* Angry duo image */
+.duo-img {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 250px; /* Increase size */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1000;
+}
+
+/* Title color */
+.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make it span the full width */
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-color: lightgreen;
+    padding: 20px 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Set the background color to Gray */
+body {
+    background-color: Gray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body take up the full height of the screen */
+    color: white;
+    text-align: center;
+}
+
+/* Style for the BEGS counter */
+.counter h1 {
+    font-size: 3rem; /* Large font size for BEGS counter */
+}
+
+/* Style for the button */
+button {
+    background-color: #4CAF50; /* Green background for the button */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ddd;
+}
+
+/* Upgrades Button */
+#upgradeTab {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Upgrades Container - Full Height */
+#upgrades {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 150px; /* Adjust width as needed */
+    height: calc(100vh - 50px); /* Full height minus the top margin */
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto; /* Allows scrolling if needed */
+}
+
+/* Upgrade Buttons - Large Spacing */
+.upgrade-button {
+    display: block;
+    width: 100px;
+    margin: 50px auto; /* Increased space between buttons */
+    padding: 5px;
+    font-size: 12px;
+    background: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

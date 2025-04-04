@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEGS Counter</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+    <img src="C:/Users/ahmajam30/Documents/BEG.site.com/image.png" alt="Angry Duo" class="duo-img">
+    <h1 class="title">Duo wants BEGS</h1>
+
+    <div class="counter">
+        <h1 id="begs-count">0</h1> <!-- BEGS counter -->
+    </div>
+
+    <button onclick="increaseBegs()">Click to increase BEGS</button>
+
+    <!-- Upgrades Button -->
+    <button id="upgradeTab">Upgrades</button>
+
+    <!-- Upgrades List (Hidden Initially) -->
+    <div id="upgrades">
+        <button class="upgrade-button" onclick="buyUpgrade()">Upgrade 1</button>
+        <button class="upgrade-button" onclick="buyUpgrade()">Upgrade 2</button>
+        <button class="upgrade-button" onclick="buyUpgrade()">Upgrade 3</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
